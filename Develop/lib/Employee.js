@@ -3,24 +3,32 @@
 
 //also prompt the user for information about the team manager and then info about team members-can be a mix of engineers and interns
 
-//function for team manager
-//function for employees
-//function for engineers
-//function for interns
+
 
 
 
 //run render on the object that holds all of the new classes
 
- 
-
-//in HTML- cards are already made
-
-
-var inquirer = require("inquirer");     ///unsure
 
 class Employee {
-    
+    constructor(name, id, email) {
+        this.name = name;
+        this.id = id;
+        this.email = email;
+    }
+    getName () {
+            return this.name
+    }
+    getId () {
+            return this.id
+    }
+    getEmail () {
+            return this.email
+    }
+    getRole() {
+            return "Employee"
+    }
+
 }
 
 
