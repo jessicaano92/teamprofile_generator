@@ -1,11 +1,10 @@
-// TODO: Write code to define and export the Intern class.  HINT: This class should inherit from Employee.
-
+// TODO: Write code to define and export the Engineer class.  HINT: This class should inherit from Employee.
 var inquirer = require("inquirer");
 
-  /// INTERN QUESTIONS/.THEN FUNCTION ///
+ /// ENGINEER QUESTIONS/.THEN FUNCTION ///
 
-  function askIntern () {
-    inquirer.prompt([
+ function askEngineer() {
+    inquirer.prompt ([
         {
             type: "input",
             message: "What is your name?",
@@ -29,14 +28,15 @@ var inquirer = require("inquirer");
         },
         {
             type: "input",
-            message: "What school do you go to?",
-            name: "school"
+            message: "What is your Github username?",
+            name: "Github"
         }
-
     ]).then(function(response){
-        askEngineer(response.name.role.number.email.school);
+        console.log(response);
 
-        ///     GET FUNCTION TO WORK
+                /// GET FUNCTION TO WORK ///
+    })
+}            
 
-    });
-}
+
+module.exports =    //maybe idk?
