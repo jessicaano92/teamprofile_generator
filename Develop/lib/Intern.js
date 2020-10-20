@@ -3,7 +3,7 @@ var inquirer = require("inquirer");
 
   /// INTERN QUESTIONS/.THEN FUNCTION ///
 
-  function askIntern () {
+  class Intern {
     inquirer.prompt([
         {
             type: "input",
@@ -39,3 +39,5 @@ var inquirer = require("inquirer");
 
     });
 }
+
+module.exports = Intern;

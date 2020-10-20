@@ -17,9 +17,13 @@
 //in HTML- cards are already made
 
 
-var inquirer = require("inquirer");
+var inquirer = require("inquirer");     ///unsure
+
+class Employee {
+    
+}
 
 
 
 
-module.exports =    //maybe idk?
+module.exports = Employee;

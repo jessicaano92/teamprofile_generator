@@ -3,9 +3,9 @@ var inquirer = require("inquirer");
 
  /// MANAGER QUESTIONS/.THEN FUNCTION  ///
 
- askTeamManager();
+//  askTeamManager();
 
- function askTeamManager() {
+ class Manager {
      inquirer.prompt([
          {
              type: "input",
@@ -45,3 +45,5 @@ var inquirer = require("inquirer");
      });
  
  }
+
+ module.exports = Manager;

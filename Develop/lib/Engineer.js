@@ -3,7 +3,7 @@ var inquirer = require("inquirer");
 
  /// ENGINEER QUESTIONS/.THEN FUNCTION ///
 
- function askEngineer() {
+ class Engineer {
     inquirer.prompt ([
         {
             type: "input",
@@ -39,4 +39,4 @@ var inquirer = require("inquirer");
 }            
 
 
-module.exports =    //maybe idk?
+module.exports = Engineer;   
