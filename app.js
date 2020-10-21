@@ -86,7 +86,7 @@ function menu() {
 function teamCreator() {
     inquirer.prompt([
         {
-            type: "checkbox",
+            type: "list",
             name: "teamOption",
             message: "What type of team member would you like to add?",
             choices: ["Engineer", "Intern", "I don't want to add anyone else"]
